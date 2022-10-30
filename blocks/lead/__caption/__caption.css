@@ -1,0 +1,30 @@
+.caption {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-self: flex-start;
+    margin: 8px 0 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .caption {
+    margin: 8px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .caption {
+    font-size: calc(100vw * (10 / 320));
+    line-height: calc(100vw * (14 / 320));
+    margin: 2.5vw 0 0 5vw;
+  }
+}

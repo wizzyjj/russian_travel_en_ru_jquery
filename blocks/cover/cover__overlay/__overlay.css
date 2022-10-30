@@ -1,0 +1,33 @@
+.cover__overlay::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+  background-color: #2A2C2F;
+}
+
+.cover__overlay:hover::before {
+  opacity: .8;
+  transition: opacity 0.5s linear;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    height: calc(100vw * (640 / 1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    height: calc(100vw * (480 / 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    height: calc(100vw * (200 / 320));
+  }
+}

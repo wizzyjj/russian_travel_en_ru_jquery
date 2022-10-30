@@ -1,0 +1,8 @@
+.__link_grey {
+    color: #ffffff;
+    transition: opacity 0.3s linear;
+  }
+
+  .__link_grey:hover {
+    opacity: 0.5;
+  }  

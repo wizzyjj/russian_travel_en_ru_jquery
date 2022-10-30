@@ -1,0 +1,24 @@
+.__la {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 18px;
+  align-items: flex-end;
+  list-style: none;
+  line-height: 0;
+  padding: 0;
+  margin: 0px 0 3px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .__la {
+    margin: 18px 0 6px 0;
+    column-gap: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .__la {
+    margin: 0 0 2.5vw 0;
+    column-gap: calc(100vw * (18 / 320));
+  }
+} 

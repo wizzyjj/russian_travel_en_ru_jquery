@@ -1,0 +1,103 @@
+@import url(../styles/normalize.css);
+
+@import url(../blocks/font/font.css);
+@import url(../blocks/body/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__la/__la.css);
+@import url(../blocks/header/__lang/__lang.css);
+@import url(../blocks/header/__lang/__lang_grey/__lang_grey.css);
+@import url(../blocks/header/__lang/en__lang.css);
+@import url(../blocks/header/__logo/__logo.css);
+
+@import url(../blocks/lead/__image/__image.css);
+@import url(../blocks/lead/__caption/__caption.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__subtitle/__subtitle.css);
+@import url(../blocks/lead/__title/__title.css);
+
+@import url(../blocks/intro/__list/__list.css);
+@import url(../blocks/intro/__text/__text.css);
+@import url(../blocks/intro/__title/__title.css);
+@import url(../blocks/intro/__weight/intro__weight.css);
+@import url(../blocks/intro/intro.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/__item.css);
+@import url(../blocks/photo-grid/__item/__item_grey-item/__item_grey-item.css);
+
+@import url(../blocks/places/place/places.css);
+@import url(../blocks/places/place/place/place.css);
+@import url(../blocks/places/place/place/__image/__image.css);
+@import url(../blocks/places/place/place/__paragraf/__paragraf.css);
+@import url(../blocks/places/place/place/__title/__title.css);
+@import url(../blocks/places/place/place/__website/__website.css);
+@import url(../blocks/places/place/place/__website/__link/__link.css);
+@import url(../blocks/places/place/place/__website/__link/__link_grey/__link_grey.css);
+@import url(../blocks/places/place/place/__website/url-heading/url-heading.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/__background.css);
+@import url(../blocks/cover/__subtitle/__subtitle.css);
+@import url(../blocks/cover/__title/__title.css);
+@import url(../blocks/cover/cover__overlay/__overlay.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/__copyright.css);
+@import url(../blocks/footer/__link/__link.css);
+@import url(../blocks/footer/__link/__link_grey/__link_grey.css);
+@import url(../blocks/footer/__list/__list.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

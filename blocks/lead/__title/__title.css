@@ -1,0 +1,28 @@
+
+
+.lead .__title {
+    max-width: 720px;
+    font-family: "Inter-Black";
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    white-space: pre-line;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .lead .__title {
+    font-size: calc(100vw * (96 / 768));
+    line-height: calc(100vw * (100 / 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead .__title {
+    font-size: calc(100vw * (40 / 320));
+    line-height: calc(100vw * (44 / 320));
+  }
+}
+

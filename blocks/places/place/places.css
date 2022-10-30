@@ -1,0 +1,21 @@
+.places {
+    display: grid;
+    padding-top: 92px;
+    row-gap: 80px;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .places {
+      padding-top: calc(100vw * (88 / 768));
+      row-gap: calc(100vw * (73 / 768));
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .places {
+      padding-top: calc(100vw * (64 / 320));
+      width: 100%;
+      row-gap: calc(100vw * (50 / 320));
+    }
+  }

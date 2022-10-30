@@ -1,0 +1,16 @@
+.footer .__list {
+    font-family: "Inter-Medium";
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 320px) {
+    .footer .__list {
+              flex-direction: column;
+    }
+  }

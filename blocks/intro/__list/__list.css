@@ -1,0 +1,40 @@
+.__list {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Inter-Bold";
+    font-weight: 700;
+    list-style: none;
+    color: #ffffff;
+    margin: 33px 0 0 0;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .__list {
+    font-size: calc(100vw * (12 / 1280));
+    line-height: calc(100vw * (18 / 1280));
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .__list {
+      font-size: calc(100vw * (12 / 1024));
+      line-height: calc(100vw * (18 / 1024));
+      }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .__list {
+      font-size: calc(100vw * (12 / 768));
+      line-height: calc(100vw * (18 / 768));
+      }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .__list {
+      font-size: calc(100vw * (12 / 320));
+      line-height: calc(100vw * (18 / 320));
+      margin: 10.6vw 0 0 0;
+    }
+  }

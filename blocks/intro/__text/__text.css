@@ -1,0 +1,23 @@
+.__text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    
+    margin: 40px 0 0 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .__text {
+      font-size: calc(100vw * (16 / 768));
+      line-height: calc(100vw  * (26 / 768));
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .__text {
+      font-size: calc(100vw * (16 / 320));
+      line-height: calc(100vw  * (26 / 320));
+      margin: 12.5vw 0 0 0;
+    }
+  }

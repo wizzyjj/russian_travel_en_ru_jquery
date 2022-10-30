@@ -1,0 +1,25 @@
+.footer .__link {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    margin: 0 18px 0 0;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer .__link {
+      font-size: calc(100vw * (16 / 768));
+      line-height: calc(100vw * (18 / 768));
+      margin: 0 2.34375vw 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .footer .__link {
+      font-size: calc(100vw * (24 / 320));
+      line-height: calc(100vw * (24 / 320));
+      margin: 0 0 10vw 0;
+    }
+  }

@@ -1,0 +1,26 @@
+.intro .__title {
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro .__title {
+      font-size: calc(100vw * (54 / 768));
+      line-height: calc(100vw * (58 / 768));
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .intro .__title {
+      font-size: calc(100vw * (32 / 320));
+      line-height: calc(100vw * (35 / 320));
+    }
+  }
+
+
+

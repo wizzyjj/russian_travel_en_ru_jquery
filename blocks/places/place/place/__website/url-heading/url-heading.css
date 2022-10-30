@@ -1,0 +1,17 @@
+.url-heading {
+    height: 12px;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin: 0 0 12px 0;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .url-heading {
+      font-size: calc(100vw * (12 / 320));
+      line-height: 1;
+      letter-spacing: calc(100vw * (2 / 320));
+      margin: 0 0 3.7vw 0;
+    }
+  }

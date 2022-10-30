@@ -1,0 +1,12 @@
+.__lang_grey {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s linear;
+    cursor: pointer;
+  }
+  
+  .__lang_grey:hover {
+    opacity: 0.5;
+  }
+  
+  
